@@ -28,10 +28,41 @@
     color: #565252;
     letter-spacing: 4px;
 }
+.animated{
+    background: black;
+}
+.anim{
+   text-align: right;
+    margin-top: 70px;
+    
+    color: lightgray;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    0% {
+      left: 0;
+      transform: translate(-100%);
+    }
+    100% {
+      left: 100%;
+      transform: translate(0);
+    }
+  }
+
 .cater{
     width: 100%;
     min-height: auto;
-    opacity: 0.75;
+    opacity: 0.9;
+    transition: 0.4s ease;
+    transform-origin: 50% 50%;
+    
+}
+.cater:hover{
+    transform: scale(1.2);
+    width: 80%;
+}
+.mate{
+    background-color: black;
 }
 #about{
     letter-spacing: 4px;
@@ -53,8 +84,16 @@
 .menu_img{
     max-width: 100%;
     height: auto;
-    opacity: 0.75
+    opacity: 0.9;
+    transition: 0.4s ease;
+    transform-origin: 50% 50%;
+    
 }
+.menu_img:hover{
+    transform: scale(1.2);
+    width: 80%;
+}
+
 #input{
     height: 60px;
     border-top: none;

@@ -1,0 +1,79 @@
+*{
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.navbar-brand{
+    letter-spacing: 4px;
+}
+.navbar-brand:hover{
+    background-color: gray;
+    max-width: 100%;
+}
+.navbar-nav li{
+    letter-spacing: 4px;
+}
+.img{
+    position: relative;
+}
+.hero{
+    width: 100%;
+    height: auto;
+}
+.txt{
+    position: absolute;
+    bottom: 10px;
+    left: 3%;
+}
+.txt h2{
+    font-size: 2.5em;
+    color: #565252;
+    letter-spacing: 4px;
+}
+.cater{
+    width: 100%;
+    min-height: auto;
+    opacity: 0.75;
+}
+#about{
+    letter-spacing: 4px;
+    font-size: 2.5em;
+}
+#aboutus{
+    letter-spacing: 4px;
+    font-size: larger;
+}
+.about_txt1{
+    font-size: 1.3em;
+}
+.about_txt2{
+    font-size: 1.3em;
+}
+.items h5{
+    letter-spacing: 4px;
+}
+.menu_img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.75
+}
+#input{
+    height: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: inherit;
+}
+@media (max-width : 1200px){
+    .about_txt2{
+        display: none;
+    }
+    
+}
+
+@media (max-width : 767px){
+    .about_txt2{
+        display:ruby ;
+    }
+    .cater{
+        display: none;
+    }
+}
